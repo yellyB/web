@@ -67,6 +67,7 @@ q:after {
   position: absolute;
   background-color: lightyellow;
   border: 1px solid #eee;
+  display: none; /* 첫 샘플은 숨기기 */
 }
 .content {
   position: relative;
@@ -119,6 +120,10 @@ q:after {
   text-align: center;
 }
 
-.memoIcon {
+.memo_icon {
   width: 100px;
+  cursor: pointer;
+}
+.memo_icon:hover {
+  width: 102px;
 }

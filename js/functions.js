@@ -134,7 +134,7 @@ const onContextMenu = (event) => {
 
   // 기존 메모 복사
   const copiedMemo = document.getElementsByClassName("memo")[0].cloneNode(true);
-
+  console.log(copiedMemo);
   // 우클릭 좌표를 새로 추가할 메모에 적용
   const x = event.x;
   const y = event.y;
