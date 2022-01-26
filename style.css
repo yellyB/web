@@ -43,6 +43,9 @@ q:after {
   content: "";
   content: none;
 }
+.title {
+  overflow: hidden;
+}
 .blind {
   overflow: hidden;
   position: absolute;
