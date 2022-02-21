@@ -16,7 +16,7 @@ const createMemo1 = (memo) => {
   memo.style.position = "absolute";
   memo.style.left = memoPosition.plusLeft() + "px";
   memo.style.top = memoPosition.plusTop() + "px";
-  //   memo.style.zIndex = zIndex.increase(); //추가한 메모가 가장 위로
+  memo.style.zIndex = zIndex.increase(); //추가한 메모가 가장 위로
 
   memo.addEventListener("contextmenu", (event) => {
     event.stopPropagation(); // 메모 내부 클릭시엔 생성x
